@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-tab4',
-  templateUrl: './tab4.page.html',
-  styleUrls: ['./tab4.page.scss'],
+  selector: 'app-newitem',
+  templateUrl: './newitem.component.html',
+  styleUrls: ['./newitem.component.scss'],
 })
-export class Tab4Page implements OnInit {
+export class NewitemComponent implements OnInit {
 
   constructor(public alertController: AlertController) { }
 
@@ -18,6 +18,6 @@ export class Tab4Page implements OnInit {
     await alert.present();
   }
 
-  ngOnInit() {
-  } 
+  ngOnInit() {}
+
 }
