@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    margin: 10% 0 1% 0;
+    margin: 7% 0 1% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@
     background: #FFFFFF;
     border: 0.2px solid #f0f1f5;
     border-radius: 8px;
-    box-shadow: -2px -2px 2px #e5e8ee;
+    filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.25));
 
     .img-item{
         margin-top: 18px;
@@ -90,12 +90,12 @@
 
 .topping{
     width: 90%;
-    margin:40px 0 0 5%;
+    margin:30px 0 0 5%;
     height: 100px;
+    filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.25));
     background: #FFFFFF;
     border: 0.2px solid #f0f1f5;
     border-radius: 8px;
-    box-shadow: -2px -2px 2px #e5e8ee;
 
     p{
         float: left;
@@ -138,7 +138,7 @@
 
 .btn{
     position: fixed;
-    bottom: 3%;
+    bottom: 1%;
     width: 90%;
     margin-left: 5%;
     background: #03A87C;
