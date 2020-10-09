@@ -6,15 +6,15 @@
     align-items: center;
 
     .icon{
-        margin-left: 5%;
+        margin-left: 4%;
         width: 20px;
         height: 25px;
         background: url('../../assets/icon/back.png') no-repeat;
     }
 
     .search{
-        margin: 0 5% 0 7%;
-        width: 57%;
+        margin: 0 5% 0 5%;
+        width: 63%;
         height: 30px;
         border: 1px solid #66696E;
         border-radius: 8px;
@@ -134,18 +134,17 @@
             border-radius: 5px;
         }
     }
+
+    .btn{
+        margin: 80px 0 80px 0;
+        width: 100%;
+        background: #03A87C;
+        box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
 }
 
-.btn{
-    position: fixed;
-    bottom: 1%;
-    width: 90%;
-    margin-left: 5%;
-    background: #03A87C;
-    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 23px;
-}

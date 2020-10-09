@@ -1,12 +1,12 @@
 .header{
     width: 100%;
-    margin: 10% 0 48px 0;
+    margin: 7% 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .icon{
-        margin-left: 5%;
+        margin-left: 4%;
         width: 20px;
         height: 25px;
         background: url('../../assets/icon/back.png') no-repeat;
@@ -44,35 +44,33 @@
 
 .item{
     width: 90%;
-    margin-left: 5%;
+    margin: 50px 0 0 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 
     .img-user{
         position: fixed;
         outline: none;
-        top: 15%;
+        top: 100px;
         width: 200px;
         height: 200px;
         border-radius: 100%;
         background-color: #66696E;
-        image-orientation: unset;
     }
 
     .content{
-        margin-top: 30%;
+        margin-top: 90px;
         width: 100%;
-        height: 340px;
+        height: max-content;
         filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.25));
         background: #FFFFFF;
         border: 0.2px solid #f0f1f5;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
 
         h1{
             font-weight: bold;
@@ -86,10 +84,11 @@
             width: 100%;
             height: 45px;
             border-top: 1px solid #ebedf1;
-            text-align: center;
+            display: flex;
 
             p{
                 float: left;
+                width: 90%;
                 margin-left: 5%;
                 font-weight: bold;
                 font-size: 15px;
@@ -98,34 +97,34 @@
             }
 
             .icongo{
-                margin: 5%;
-                width: 8px;
-                height: 23px;
                 float: right;
+                margin: 4% 5% 0 5%;
+                width: 45px;
+                height: 45px;
                 background: url('../../assets/icon/icongo.png') no-repeat;
             }
         }
     }
 
-}
-
-.control{
-    width: 90%;
-    margin-left: 5%;
-    position: fixed;
-    bottom: 37px;
-
-    .btn{
+    .control{
+        margin-top: 50px;
         width: 100%;
-        height: 40px;
-        margin-top: 10px;
-        background: #03A87C;
-        box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-        color: #fff;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 23px;
+    
+        .btn{
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+            background: #03A87C;
+            box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+        }
     }
+
 }
+
+
 
