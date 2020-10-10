@@ -7,37 +7,38 @@
     </div>
     <div class="avt"></div>
   </div>
-  <div class="my-items">
-      <h2>Giỏ hàng</h2>
-    <div class="item">
-      <div class="img"><img style="width:40px" src="../../assets/items/MilkTea.png"></div>
-      <div class="desc">
-        <h3>35.000 đ</h3>
-        <p>Trà sữa</p>
-      </div>
-      <button class="btn-delete" (click)="onClick()"></button>
-    </div>
-    <div class="item">
-      <div class="img"><img style="width:40px" src="../../assets/items/MilkTea.png"></div>
-      <div class="desc">
-        <h3>35.000 đ</h3>
-        <p>Trà sữa</p>
-      </div>
-      <button class="btn-delete" (click)="onClick()"></button>
-    </div>
-    <div class="item">
-      <div class="img"><img style="width:40px" src="../../assets/items/MilkTea.png"></div>
-      <div class="desc">
-        <h3>35.000 đ</h3>
-        <p>Trà sữa</p>
-      </div>
-      <button class="btn-delete" (click)="onClick()"></button>
+  <div class="delivery">
+    <p>Delivery address: </p>
+    <textarea name="" id="textarea" ></textarea>
+  </div>
+
+  <div class="check">
+    <label class="container">Ship COD
+      <input type="checkbox" checked="checked">
+      <span class="checkmark"></span>
+    </label>
+    <label class="container">Master card
+      <input type="checkbox" >
+      <span class="checkmark"></span>
+    </label>
+  </div>
+  
+  <form action="">
+    <div class="card">
+      <p>Card number:</p>
+      <div class="input"><ion-input type="number" placeholder="xxxx xxxx xxxx xxxx"></ion-input></div>
+      <p>Card Holder:</p>
+      <div class="input"> <ion-input type="text" placeholder="____ ____ ____ ____"></ion-input></div>
+      <p>Expiry date:</p>
+      <div class="input"><ion-input type="date"></ion-input></div>
+      <p>Security code:</p>
+      <div class="input"><ion-input type="number" placeholder="xxxx"></ion-input></div>
     </div>
     <div class="total">
       <h1>Tổng:</h1><p>105.000 đ</p>
     </div>
-  </div>
-  <ion-button class="btn" (click)="onClick()" expand="block" fill="clear" shape="round">
-    Thanh toán
-  </ion-button>
+    <ion-button class="btn" type="submit" (click)="onClick()" expand="block" fill="clear" shape="round">
+      Thanh toán
+    </ion-button>
+  </form>
 </ion-content>

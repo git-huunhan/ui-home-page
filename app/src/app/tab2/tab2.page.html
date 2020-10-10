@@ -17,14 +17,14 @@
       <h1>35.000 đ</h1>
       <p>Sữa tươi trân châu đường đen</p>
     </div>
-  </div>
+  </div>  
 
   <div class="topping">
     <p>Topping</p>
     <div class="option">
-        <div class="op1"></div>
-        <div class="op2"></div>
-        <div class="op3"></div>
+      <ion-button class="op1" (click)="onClick()" expand="block" fill="clear" shape="round"></ion-button>
+      <ion-button class="op2" (click)="onClick()" expand="block" fill="clear" shape="round"></ion-button>
+      <ion-button class="op3" (click)="onClick()" expand="block" fill="clear" shape="round"></ion-button>
     </div>
     <ion-button class="btn" type="submit" (click)="presentAlert()" expand="block" fill="clear" shape="round">
       ADD TO CART
