@@ -53,6 +53,10 @@ const routes: Routes = [
   {
     path: 'new-item',
     loadChildren: () => import('./pages/new-item/new-item.module').then( m => m.NewItemPageModule)
+  },
+  {
+    path: 'checkout-success',
+    loadChildren: () => import('./pages/checkout-success/checkout-success.module').then( m => m.CheckoutSuccessPageModule)
   }
 ];
 @NgModule({
