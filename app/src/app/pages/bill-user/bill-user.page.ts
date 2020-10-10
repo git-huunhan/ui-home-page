@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-tab4',
-  templateUrl: './tab4.page.html',
-  styleUrls: ['./tab4.page.scss'],
+  selector: 'app-bill-user',
+  templateUrl: './bill-user.page.html',
+  styleUrls: ['./bill-user.page.scss'],
 })
-export class Tab4Page implements OnInit {
+export class BillUserPage implements OnInit {
 
   constructor(public alertController: AlertController) { }
 
@@ -25,7 +25,7 @@ export class Tab4Page implements OnInit {
         }, {
           text: 'Okay',
           handler: () => {
-            console.log('chuyển đến trang hủy đơn thành công');
+            console.log('con chó này. đm m dám hủy đơn của bố :<');
           }
         }
       ]
@@ -33,6 +33,9 @@ export class Tab4Page implements OnInit {
 
     await alert.present();
   }
+
+
   ngOnInit() {
-  } 
+  }
+
 }

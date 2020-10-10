@@ -57,6 +57,14 @@ const routes: Routes = [
   {
     path: 'checkout-success',
     loadChildren: () => import('./pages/checkout-success/checkout-success.module').then( m => m.CheckoutSuccessPageModule)
+  },
+  {
+    path: 'bill-user',
+    loadChildren: () => import('./pages/bill-user/bill-user.module').then( m => m.BillUserPageModule)
+  },
+  {
+    path: 'cancel-order',
+    loadChildren: () => import('./pages/cancel-order/cancel-order.module').then( m => m.CancelOrderPageModule)
   }
 ];
 @NgModule({
