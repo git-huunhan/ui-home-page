@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AlertController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab4',
@@ -8,15 +7,7 @@ import { AlertController } from '@ionic/angular';
 })
 export class Tab4Page implements OnInit {
 
-  constructor(public alertController: AlertController) { }
-
-  async presentAlert() {
-    const alert = await this.alertController.create({
-      message: 'Import new item succsess',
-      buttons: ['OK']
-    });
-    await alert.present();
-  }
+  constructor() { }
 
   ngOnInit() {
   } 

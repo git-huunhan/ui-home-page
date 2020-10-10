@@ -1,0 +1,34 @@
+<ion-content fullscreen>
+  <div class="header">
+    <div class="icon"></div>
+    <div class="search">
+      <input type="text" placeholder="Search...">
+      <div class="icon-search"></div>
+    </div>
+  </div>
+  <div>
+    <form>
+      <div class="new-item">
+        <p>Ảnh sản phẩm:</p>
+        <div class="img">
+          <input type="file" name="filename" accept="image/gif, image/jpeg, image/png">
+        </div>
+        <p>Tên sản phẩm:</p>
+        <div class="row-short">
+          <input type="text">
+        </div>
+        <p>Giá:</p>
+        <div class="row-short">
+          <input type="number">
+        </div>
+        <p>Mô tả:</p>
+        <div class="row-long">
+          <textarea name="description" id="a"></textarea>
+        </div>
+      </div>
+      <ion-button class="btn" type="submit" (click)="presentAlert()" expand="block" fill="clear" shape="round">
+        Thêm sản phẩm
+      </ion-button>
+    </form>
+  </div>
+</ion-content>
